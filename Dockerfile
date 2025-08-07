@@ -6,4 +6,4 @@ COPY --chown=app:app . ./
 USER app
 CMD ["bash", "-c", "streamlit run main.py --server.port=$PORT"]
 
-# comment here for build demo at devopsdays
+# comment here for deploy
